@@ -14,7 +14,7 @@ jobs:
           python-version: 3.8
       - name: Update README
         run: |-
-          python update_readme.py
+          python ${{ github.workspace }}/update_readme.py
       - name: Commit and push if README changed
         run: |-
           cd main
