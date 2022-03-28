@@ -5,11 +5,11 @@ if __name__ == "__main__":
   cwd = os.getcwd()
   
   # collect unhidden directories
-  directories = [
+  directories = sorted([
     f for f in os.listdir()
     if os.path.isdir(os.path.join(cwd, f))
     and not f.startswith(".")
-  ]
+  ])
 
   # collect entries within directories
   topics = []
