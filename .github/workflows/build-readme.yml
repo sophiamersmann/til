@@ -9,12 +9,11 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v2
         with:
           python-version: 3.8
       - name: Update README
-        run: |-
-          python ${{ github.workspace }}/update_readme.py
+        run: python ./update_readme.py
       - name: Commit and push if README changed
         run: |-
           cd main
