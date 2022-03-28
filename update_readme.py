@@ -40,9 +40,9 @@ if __name__ == "__main__":
   readme_list = []
   with open(readme_file) as f:
     for line in f:
-      if line.strip().startswith("## "):
-        break
       readme_list.append(line)
+      if line.startswith("<!-- entries: start -->"):
+        break
     
     readme_list.append("\n")
     
