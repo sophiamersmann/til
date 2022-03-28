@@ -13,10 +13,10 @@ jobs:
         with:
           python-version: 3.8
       - name: Update README
-        run: python ./update_readme.py
+        run: |-
+          python update_readme.py
       - name: Commit and push if README changed
         run: |-
-          cd main
           git diff
           git config --global user.email "readme-bot@example.com"
           git config --global user.name "README-bot"
