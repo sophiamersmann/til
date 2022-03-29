@@ -11,6 +11,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## github-actions
 
 - [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
+- [Checkout full history of repo](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
 
 ## google-sheets
 
