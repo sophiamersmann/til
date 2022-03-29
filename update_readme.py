@@ -36,6 +36,7 @@ if __name__ == "__main__":
         os.path.join(path, file),
       ], stdout=subprocess.PIPE)
       dates = [d for d in dates_str.stdout.decode('utf-8').split("\n") if d]
+      print(dates)
       if dates:
         date = re.match(r'.*(\d\d\d\d-\d\d-\d\d).*', dates[-1]).groups()[0]
       else:
