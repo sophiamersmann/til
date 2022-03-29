@@ -17,7 +17,7 @@ if __name__ == "__main__":
   topics = []
   for directory in directories:
     path = os.path.join(cwd, directory)
-    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
+    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f)) and f.endswith('.md')]
 
     entries = []
     for file in files:
