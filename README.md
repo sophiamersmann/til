@@ -12,6 +12,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 - [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
 
+## google-sheets
+
+- [Run js code on Google sheets via Apps Script](google-sheets/run-js-via-app-scripts.md) - 2022-03-29
+
 ## iframes
 
 - [Set a cross-domain iframe's height to the height of its content](iframes/set-iframe-height-to-the-height-of-its-content.md) - 2022-03-28
