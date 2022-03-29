@@ -1,4 +1,6 @@
 import os
+import re
+import subprocess
 from datetime import datetime
 
 if __name__ == "__main__":
@@ -26,11 +28,21 @@ if __name__ == "__main__":
           if line.startswith('# '):
             heading = line[1:].strip()
             break
+
+      # get creation date from git
+      dates_str = subprocess.run([
+        "git", "log",
+        "--pretty='format:%cd'",
+        "--date=format:'%Y-%m-%d'",
+        os.path.join(path, file),
+      ], stdout=subprocess.PIPE)
+      dates = [d for d in dates_str.stdout.decode('utf-8').split("\n") if d]
+      date = re.match(r'.*(\d\d\d\d-\d\d-\d\d).*', dates[-1]).groups()[0]
       
       entries.append({
         "path": os.path.join(directory, file),
         "heading": heading,
-        "date": datetime.fromtimestamp(os.path.getmtime(os.path.join(path, file))).strftime("%Y-%m-%d")
+        "date": date
       })
 
     topics.append({ "heading": directory, "entries": entries })
@@ -53,5 +65,5 @@ if __name__ == "__main__":
       readme_list.append("\n")
 
   # write to readme file
-  with open(readme_file, "w") as f:
+  with open("test.md", "w") as f:
     f.write("".join(readme_list)) 
