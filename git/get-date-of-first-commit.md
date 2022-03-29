@@ -1,4 +1,4 @@
-# Get date of first commit in git
+# Find the date of the first commit of a file
 
 To retrieve a list of days on which a file has been committed to git, use `git log` with a specific format that outputs the committer date only. For example, `%cs` outputs the committer date in short format (`YYYY-MM-DD`). See [pretty-formats](https://git-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-emcsem) for more options.
 

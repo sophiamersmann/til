@@ -1,4 +1,4 @@
-# Checkout full history of repo
+# Checkout the full history of a repository
 
 By default [actions/checkout](https://github.com/actions/checkout) only fetches the last commit. Sometimes, you might want to fetch the full history of a repo. Do so by specifying `fetch-depth` appropriately.
 
