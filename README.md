@@ -6,12 +6,12 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## git
 
-- [Get date of first commit in git](git/get-date-of-first-commit.md) - 2022-03-29
+- [Find the date of the first commit of a file](git/get-date-of-first-commit.md) - 2022-03-29
 
 ## github-actions
 
 - [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
-- [Checkout full history of repo](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
+- [Checkout the full history of a repository](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
 
 ## google-sheets
 
