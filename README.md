@@ -24,3 +24,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 - [Execute code privately using IIFEs](javascript/execute-code-privately-using-iifes.md) - 2022-03-29
 
+## sqlite
+
+- [Import CSV data into SQLite](sqlite/import-csv-data-into-sqlite.md) - 2022-03-29
+
