@@ -6,7 +6,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## git
 
-- [Find the date of the first commit of a file](git/get-date-of-first-commit.md) - 2022-03-29
+- [Find the creation date of a file in a repository](git/get-date-of-first-commit.md) - 2022-03-29
 
 ## github-actions
 
@@ -15,7 +15,11 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## google-sheets
 
-- [Run js code on Google sheets via Apps Script](google-sheets/run-js-via-app-scripts.md) - 2022-03-29
+- [Run javascript code on Google sheets via Apps Script](google-sheets/run-js-via-app-scripts.md) - 2022-03-29
+
+## html
+
+- [Render a javascript object in pretty format](html/render-js-object-in-pretty-format.md) - 2022-03-30
 
 ## iframes
 
