@@ -1,6 +1,6 @@
 # Run Python script in GitHub actions
 
-Use [`actions/setup-python`](https://github.com/marketplace/actions/setup-python) to setup Python. You might also want to specify a Python version. The script to run, `my_script.py` below, lives in the repo's root.
+Use [`actions/setup-python`](https://github.com/marketplace/actions/setup-python) to setup Python. You might also want to specify a specific version. The script to run, `my_script.py` below, lives in the repository's root.
 
 ```yml
 jobs:

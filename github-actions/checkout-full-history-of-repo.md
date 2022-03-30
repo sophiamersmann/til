@@ -1,6 +1,6 @@
 # Checkout the full history of a repository
 
-By default [actions/checkout](https://github.com/actions/checkout) only fetches the last commit. Sometimes, you might want to fetch the full history of a repo. Do so by specifying `fetch-depth` appropriately.
+By default [actions/checkout](https://github.com/actions/checkout) only fetches the last commit to a repository. Sometimes, you might want to fetch the full history of a repository instead. Do so by setting `fetch-depth` to `0` (default: `1`).
 
 ```yml
 jobs:

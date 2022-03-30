@@ -31,4 +31,4 @@ var exposed = (function () {
 })();
 ```
 
-After the IIFE has been executed, you can call the exposed function: `exposed.publicFunction()`.
+After the IIFE has been executed, you can call the exposed function as `exposed.publicFunction()`.

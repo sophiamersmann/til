@@ -1,4 +1,4 @@
-# Run js code on Google sheets via Apps Script
+# Run javascript code on Google sheets via Apps Script
 
 Google sheets offers a service called "Apps Script" that makes it easy to run some javascript code on Google sheets. App scripts also allows to configure event triggers or time-driven triggers that execute custom functions on cue.
 
