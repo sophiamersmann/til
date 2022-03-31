@@ -33,3 +33,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 - [Import CSV data into SQLite](sqlite/import-csv-data-into-sqlite.md) - 2022-03-29
 
+## svelte
+
+- [Collect all routes in a SvelteKit application (development only)](svelte/collect-all-routes.md) - 2022-03-31
+
