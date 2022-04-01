@@ -1,6 +1,6 @@
 # Collect all routes in a SvelteKit application (development only)
 
-Sometimes in development I find it useful to link to all routes in the application on the index page. Here is a hacky way to do that. It uses [Vite's glob import](https://vitejs.dev/guide/features.html#glob-import) that imports multiple modules from the file system via the special `import.meta.glob` function.
+Sometimes in development I find it useful to link to all routes in the application on the index page. Here is a hacky way to do that. It uses [Vite's glob import](https://vitejs.dev/guide/features.html#glob-import) that imports multiple modules from the file system via the special `import.meta.glob` function. (You probably don't want to do this in production though.)
 
 ```js
 // load all routes
@@ -14,7 +14,7 @@ for (let filename in modules) {
 }
 ```
 
-Normally you would run this code before the component is created and send the results to the component as a prop.
+When run from the index file, the glob pattern (`'./**.svelte'`) will import all svelte files in the routes directory, including nested ones. Normally you would run this code before the component is created and send the results to the component as a prop.
 
 ```svelte
 <script context="module">
