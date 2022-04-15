@@ -19,6 +19,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## html
 
+- [Remove whitespace between inline elements](html/remove-whitespace-between-inline-elements.md) - 2022-04-15
 - [Render a javascript object in pretty format](html/render-js-object-in-pretty-format.md) - 2022-03-30
 
 ## iframes
