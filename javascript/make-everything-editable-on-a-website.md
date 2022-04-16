@@ -1,4 +1,4 @@
-# Make everything editable on a website
+# Make everything editable on a website
 
 There is a neat trick to render an entire HTML document editable. Simply type this into the console to turn `designMode` on:
 
