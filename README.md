@@ -29,6 +29,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## javascript
 
 - [Assign default values when destructuring an object or array](javascript/assign-default-values-when-destructuring-an-object-or-array.md) - 2022-04-16
+- [make-everything-editable-on-a-website.md](javascript/make-everything-editable-on-a-website.md) - 2022-04-16
 - [Execute code privately using IIFEs](javascript/execute-code-privately-using-iifes.md) - 2022-03-29
 
 ## sqlite
