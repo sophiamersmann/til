@@ -14,6 +14,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## github-actions
 
+- [Run action in a templated repository only](github-actions/run-action-in-templated-repo-only.md) - 2022-06-14
 - [Checkout the full history of a repository](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
 - [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
 
