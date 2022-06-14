@@ -40,6 +40,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 - [Import CSV data into SQLite](sqlite/import-csv-data-into-sqlite.md) - 2022-03-29
 
+## style-dictionary
+
+- [Custom transform that removes units](style-dictionary/custom-transform-to-remove-units.md) - 2022-06-14
+
 ## sveltekit
 
 - [Collect all routes in a SvelteKit application (development only)](sveltekit/collect-all-routes.md) - 2022-03-31
