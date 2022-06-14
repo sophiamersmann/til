@@ -4,14 +4,18 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 <!-- entries: start -->
 
+## bash
+
+- [Kill command after a timeout](bash/kill-command-after-timeout.md) - 2022-06-14
+
 ## git
 
 - [Find the creation date of a file in a repository](git/get-date-of-first-commit.md) - 2022-03-29
 
 ## github-actions
 
-- [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
 - [Checkout the full history of a repository](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
+- [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
 
 ## google-sheets
 
@@ -29,8 +33,8 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## javascript
 
 - [Assign default values when destructuring an object or array](javascript/assign-default-values-when-destructuring-an-object-or-array.md) - 2022-04-16
-- [Execute code privately using IIFEs](javascript/execute-code-privately-using-iifes.md) - 2022-03-29
 - [Make everything on a website editable](javascript/make-everything-on-a-website-editable.md) - 2022-04-16
+- [Execute code privately using IIFEs](javascript/execute-code-privately-using-iifes.md) - 2022-03-29
 
 ## sqlite
 
