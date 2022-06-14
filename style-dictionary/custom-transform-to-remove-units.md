@@ -1,6 +1,6 @@
 # Custom transform that removes units
 
-Style dictionary builds design tokens for various platforms including, for example, CSS and JavaScript. While CSS variables need units, I usually want some of the js values in number format. To remove units from tokens when building, one needs to register a custom transform. Consider the following code:
+Style dictionary builds design tokens for various platforms including, for example, CSS and JavaScript. While CSS variables usually need units, I often want js values to be in number format. To remove units from tokens when building, register a custom transform:
 
 ```js
 // build.cjs
@@ -11,7 +11,9 @@ const StyleDictionary = require("style-dictionary");
 StyleDictionary.registerTransform({
   name: "size/unitless",
   type: "value",
+  // filter for specific categories
   matcher: (token) => token.attributes.category === "some-category",
+  // remove all characters
   transformer: (token) => +token.value.replace(/[a-z]/gim, ""),
 });
 
@@ -24,7 +26,7 @@ const StyleDictionaryExtended = StyleDictionary.extend(
 StyleDictionaryExtended.buildAllPlatforms();
 ```
 
-This assumes `config.json` lives in the same directory; within the configuration, we can then reference the custom transform as follows:
+This assumes `config.json` lives in the same directory; the custom transformation can then be referenced like:
 
 ```json
 {
