@@ -6,8 +6,12 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## bash
 
-- [Generate a random secret](bash/generate-random-secret.md) - 2022-07-07
 - [Kill command after a timeout](bash/kill-command-after-timeout.md) - 2022-06-14
+- [Generate a random secret](bash/generate-random-secret.md) - 2022-07-07
+
+## css
+
+- [Masonry layout with a clean bottom edge](css/masonry-layout-with-clean-bottom-edge.md) - 2022-07-29
 
 ## git
 
@@ -15,10 +19,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## github-actions
 
-- [Checkout the full history of a repository](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
 - [Run action in a templated repository only](github-actions/run-action-in-templated-repo-only.md) - 2022-06-14
-- [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
+- [Checkout the full history of a repository](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
 - [Load secret environment variables using dotenv](github-actions/load-secret-env-variables-using-dotenv.md) - 2022-06-14
+- [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
 
 ## google-sheets
 
@@ -26,8 +30,8 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## html
 
-- [Remove whitespace between inline elements](html/remove-whitespace-between-inline-elements.md) - 2022-04-15
 - [Render a javascript object in pretty format](html/render-js-object-in-pretty-format.md) - 2022-03-30
+- [Remove whitespace between inline elements](html/remove-whitespace-between-inline-elements.md) - 2022-04-15
 
 ## iframes
 
