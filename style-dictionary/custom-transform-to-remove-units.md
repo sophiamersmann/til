@@ -52,4 +52,4 @@ This assumes `config.json` lives in the same directory; the custom transformatio
 }
 ```
 
-To build style dictionary, run `node /build.cjs`.
+To build style dictionary, run `node build.cjs`.
