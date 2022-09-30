@@ -13,7 +13,7 @@ try {
     window.localStorage.setItem("my-local-storage-data", JSON.stringify(data));
 
     // read from local storage
-    let data = localStorage.getItem("my-local-storage-data");
+    let data = window.localStorage.getItem("my-local-storage-data");
     if (data) {
       data = JSON.parse(data);
     }
