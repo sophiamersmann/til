@@ -19,10 +19,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## github-actions
 
-- [Run action in a templated repository only](github-actions/run-action-in-templated-repo-only.md) - 2022-06-14
 - [Checkout the full history of a repository](github-actions/checkout-full-history-of-repo.md) - 2022-03-29
-- [Load secret environment variables using dotenv](github-actions/load-secret-env-variables-using-dotenv.md) - 2022-06-14
 - [Run Python script in GitHub actions](github-actions/run-python-script.md) - 2022-03-28
+- [Run action in a templated repository only](github-actions/run-action-in-templated-repo-only.md) - 2022-06-14
+- [Load secret environment variables using dotenv](github-actions/load-secret-env-variables-using-dotenv.md) - 2022-06-14
 
 ## google-sheets
 
@@ -30,8 +30,8 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## html
 
-- [Render a javascript object in pretty format](html/render-js-object-in-pretty-format.md) - 2022-03-30
 - [Remove whitespace between inline elements](html/remove-whitespace-between-inline-elements.md) - 2022-04-15
+- [Render a javascript object in pretty format](html/render-js-object-in-pretty-format.md) - 2022-03-30
 
 ## iframes
 
@@ -39,9 +39,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## javascript
 
-- [Make everything on a website editable](javascript/make-everything-on-a-website-editable.md) - 2022-04-16
+- [Store data in local storage](javascript/store-data-in-local-storage.md) - 2022-09-30
 - [Execute code privately using IIFEs](javascript/execute-code-privately-using-iifes.md) - 2022-03-29
 - [Assign default values when destructuring an object or array](javascript/assign-default-values-when-destructuring-an-object-or-array.md) - 2022-04-16
+- [Make everything on a website editable](javascript/make-everything-on-a-website-editable.md) - 2022-04-16
 
 ## sqlite
 
