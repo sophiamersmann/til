@@ -43,6 +43,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 - [Execute code privately using IIFEs](javascript/execute-code-privately-using-iifes.md) - 2022-03-29
 - [Assign default values when destructuring an object or array](javascript/assign-default-values-when-destructuring-an-object-or-array.md) - 2022-04-16
 - [Make everything on a website editable](javascript/make-everything-on-a-website-editable.md) - 2022-04-16
+- [Copy to clipboard](javascript/copy-to-clipboard.md) - 2022-10-06
 
 ## sqlite
 
