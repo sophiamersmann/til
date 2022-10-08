@@ -26,6 +26,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## google-sheets
 
+- [Import data from a table within an HTML page](google-sheets/import-data-from-a-table-within-an-html-page.md) - 2022-10-08
 - [Run javascript code on Google sheets via Apps Script](google-sheets/run-js-via-app-scripts.md) - 2022-03-29
 
 ## html
