@@ -1,4 +1,4 @@
-# Template script
+# Template shell script
 
 Dumping here the template script I usually use for shell scripts. It roughly follows the suggestions outlined in [this blog post](https://sharats.me/posts/shell-script-best-practices/).
 
