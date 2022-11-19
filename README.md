@@ -9,6 +9,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 - [Generate a random secret](bash/generate-random-secret.md) - 2022-07-07
 - [Kill command after a timeout](bash/kill-command-after-timeout.md) - 2022-06-14
 - [Load environment variables from file](bash/load-environment-variables-from-file.md) - 2022-11-10
+- [Template shell script](bash/template-shell-script.md) - 2022-11-19
 
 ## css
 
@@ -27,6 +28,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 ## google-cloud-platform
 
+- [Sync compressed files to Google Cloud Storage](google-cloud-platform/sync-compressed-files-to-storage.md) - 2022-11-19
 - [Write temporary files from Cloud Functions](google-cloud-platform/write-temporary-files-from-cloud-functions.md) - 2022-11-10
 
 ## google-sheets
