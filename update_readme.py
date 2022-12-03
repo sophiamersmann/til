@@ -47,6 +47,9 @@ if __name__ == "__main__":
         "date": date
       })
 
+    # sort articles alphabetically
+    entries = sorted(entries, key=lambda d: d['heading']) 
+
     topics.append({ "heading": directory, "entries": entries })
 
   # build readme file
