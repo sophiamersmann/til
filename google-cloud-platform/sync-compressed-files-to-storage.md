@@ -38,3 +38,7 @@ gsutil setmeta \
   -h 'Content-Encoding:gzip' \
   -h 'Content-Type:text/javascript' gs://my-bucket/my-path/**/*.js
 ```
+
+> **Warning**
+> 
+> Uploading locally compressed files and subsequently configuring the appropriate content encodings and types is dangerous since a user that request files while the upload is in process will end up with corrupted files.
