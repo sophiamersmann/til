@@ -61,6 +61,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 
 - [Custom transform that removes units](style-dictionary/custom-transform-to-remove-units.md) - 2022-06-14
 
+## svelte
+
+- [Type component parameters when spreading `$$restProps`](svelte/type-component-parameters-when-spreading-restprops.md) - 2022-12-09
+
 ## sveltekit
 
 - [Collect all routes in a SvelteKit application (development only)](sveltekit/collect-all-routes.md) - 2022-03-31
