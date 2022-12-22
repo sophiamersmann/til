@@ -53,6 +53,10 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 - [Make everything on a website editable](javascript/make-everything-on-a-website-editable.md) - 2022-04-16
 - [Store data in local storage](javascript/store-data-in-local-storage.md) - 2022-09-30
 
+## maps
+
+- [Rendering Bing tiles with MapLibre](maps/rendering-bing-tiles-with-maplibre.md) - 2022-12-22
+
 ## sqlite
 
 - [Import CSV data into SQLite](sqlite/import-csv-data-into-sqlite.md) - 2022-03-29
