@@ -23,9 +23,11 @@ The downside is: By spreading `$$restProps`, all type safety is lost. No type er
 ```svelte
 <!-- Button.svelte -->
 <script lang="ts">
+  import type { HTMLButtonAttributes } from 'svelte/elements';
+
   type Variant = 'primary' | 'secondary' | 'tertiary';
 
-  interface $$Props extends svelte.JSX.HTMLAttributes<HTMLButtonElement> {
+  interface $$Props extends HTMLButtonAttributes {
     variant?: Variant;
   }
 
@@ -33,4 +35,4 @@ The downside is: By spreading `$$restProps`, all type safety is lost. No type er
 </script>
 ```
 
-`$$Props` is the interface that types the component's parameters. It is usually inferred but can be overwritten. Here, it extends the interface for attributes of a `HTMLButtonElement` instance, and additionally specifies the types of all custom parameters (`variant`). Sadly, you will need to specify the types of the custom parameters twice: once on the `$$Props` interface, once when initializing the variable. If you omit the type definition from the initialization statement, then the parameter will be incorrectly typed throughout the component file (at least at the time of writing).
+`$$Props` is the interface that types the component's parameters. It is usually inferred but can be overwritten. Here, it extends the interface for attributes of a `HTMLButtonElement` instance, and additionally specifies the types of all custom parameters (`variant`). `svelte/elements` is a relatively new module, introduced in Svelte@3.55 (in version < 3.55, you would use `svelte.JSX.HTMLAttributes<HTMLButtonElement>` instead). Sadly, you will need to specify the types of the custom parameters twice: once on the `$$Props` interface, once when initializing the variable. If you omit the type definition from the initialization statement, then the parameter will be incorrectly typed throughout the component file (at least at the time of writing).
