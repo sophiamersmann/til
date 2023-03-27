@@ -14,6 +14,7 @@ My Today I Learned snippets. Inspired by [simonw/til](https://github.com/simonw/
 ## css
 
 - [Masonry layout with a clean bottom edge](css/masonry-layout-with-clean-bottom-edge.md) - 2022-07-29
+- [Play and pause animations on hover](css/play-and-pause-animations-on-hover.md) - 2023-03-27
 
 ## git
 
