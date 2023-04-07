@@ -1,4 +1,4 @@
-name: Build README
+name: Build README and update data
 
 on:
   push:
@@ -17,13 +17,13 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: 3.8
-      - name: Update README
+      - name: Update README and data
         run: |-
-          python update_readme.py
-      - name: Commit and push if README changed
+          python update.py
+      - name: Commit and push if files changed
         run: |-
           git diff
-          git config --global user.email "readme-bot@example.com"
-          git config --global user.name "readme-bot"
-          git diff --quiet || (git add README.md && git commit -m "update readme")
+          git config --global user.email "bot@example.com"
+          git config --global user.name "bot"
+          git diff --quiet || (git add README.md data.csv data.json && git commit -m "update readme and data")
           git push

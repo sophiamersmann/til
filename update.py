@@ -2,6 +2,8 @@ import os
 import re
 import subprocess
 from datetime import datetime
+import csv
+import json
 
 if __name__ == "__main__":
   cwd = os.getcwd()
@@ -72,3 +74,22 @@ if __name__ == "__main__":
   # write to readme file
   with open(readme_file, "w") as f:
     f.write("".join(readme_list)) 
+
+  # flatten topics
+  topics_flat = [
+    {'date': entry['date'], 'heading': entry['heading'], 'topic': topic['heading']}
+    for topic in topics
+    for entry in topic["entries"]
+  ]
+
+  # write to csv file
+  with open('data.csv', 'w') as f:
+    fieldnames = topics_flat[0].keys()
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    for row in topics_flat:
+        writer.writerow(row)
+
+  # write to json file
+  with open('data.json', 'w') as f:
+    json.dump(topics_flat, f)
