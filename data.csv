@@ -1,0 +1,30 @@
+date,heading,topic
+2022-07-07,Generate a random secret,bash
+2022-06-14,Kill command after a timeout,bash
+2022-11-10,Load environment variables from file,bash
+2022-11-19,Template shell script,bash
+2022-07-29,Masonry layout with a clean bottom edge,css
+2023-03-27,Play and pause animations on hover,css
+2022-03-29,Find the creation date of a file in a repository,git
+2022-03-29,Checkout the full history of a repository,github-actions
+2022-06-14,Load secret environment variables using dotenv,github-actions
+2022-03-28,Run Python script in GitHub actions,github-actions
+2022-06-14,Run action in a templated repository only,github-actions
+2022-11-19,Sync compressed files to Google Cloud Storage,google-cloud-platform
+2022-11-10,Write temporary files from Cloud Functions,google-cloud-platform
+2022-10-08,Import data from a table within an HTML page,google-sheets
+2022-03-29,Run javascript code on Google sheets via Apps Script,google-sheets
+2022-04-15,Remove whitespace between inline elements,html
+2022-03-30,Render a javascript object in pretty format,html
+2022-03-28,Set a cross-domain iframe's height to the height of its content,iframes
+2022-04-16,Assign default values when destructuring an object or array,javascript
+2022-10-06,Copy to clipboard,javascript
+2022-03-29,Execute code privately using IIFEs,javascript
+2022-12-23,Get computed styles of an element on the page,javascript
+2022-04-16,Make everything on a website editable,javascript
+2022-09-30,Store data in local storage,javascript
+2022-12-22,Rendering Bing tiles with MapLibre,maps
+2022-03-29,Import CSV data into SQLite,sqlite
+2022-06-14,Custom transform that removes units,style-dictionary
+2022-12-09,Type component parameters when spreading `$$restProps`,svelte
+2022-03-31,Collect all routes in a SvelteKit application (development only),sveltekit
