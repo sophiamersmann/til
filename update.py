@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
   # flatten topics
   topics_flat = [
-    {'date': entry['date'], 'heading': entry['heading'], 'topic': topic['heading']}
+    {**entry, 'topic': topic['heading']}
     for topic in topics
     for entry in topic["entries"]
   ]
